@@ -11,12 +11,11 @@ If something doesn’t work, please [file an issue](https://github.com/facebook/
 ## Quick Overview
 
 ```sh
-npx reactjs_app my-app
 cd my-app
 npm start
 ```
 
-Then open [http://localhost:3000/](http://localhost:3000/) to see your app.<br>
+Then open [http://localhost:3000/](http://localhost:3000/) 
 
 ## Directories
 
@@ -37,5 +36,6 @@ my-app
     ├── index.css
     ├── index.js
     ├── logo.svg
-    └── registerServiceWorker.js
+    ├── registerServiceWorker.js
+	└── TodoApp.js
 ```
