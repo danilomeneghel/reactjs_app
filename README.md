@@ -1,4 +1,4 @@
-# React App
+# ReactJS Basic App
 
 Create React apps with no build configuration.
 
