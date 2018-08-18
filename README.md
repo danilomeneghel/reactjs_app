@@ -12,6 +12,7 @@ If something doesn’t work, please [file an issue](https://github.com/facebook/
 
 ```sh
 cd my-app
+npm install
 npm start
 ```
 
