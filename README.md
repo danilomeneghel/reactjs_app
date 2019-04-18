@@ -22,7 +22,7 @@ $ git clone https://github.com/danilomeneghel/reactjs_app.git
 $ npm install
 ```
 
-Ao concluir a configuração, basta digitar no terminal:
+Ao concluir a instalação, basta digitar no terminal:
 
 ```sh
 $ npm start
