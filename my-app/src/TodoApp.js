@@ -42,11 +42,7 @@ class TodoApp extends React.Component {
             Digite o item a ser adicionado
           </label>
 		  <br />
-          <input
-            id="new-todo"
-            onChange={this.handleChange}
-            value={this.state.text}
-          /> 
+          <input id="new-todo" onChange={this.handleChange} value={this.state.text} maxlength="35" /> 
           <button className='btn btn-success'>
 		    <i className="fa fa-plus"></i> Adicionar
 		  </button>
