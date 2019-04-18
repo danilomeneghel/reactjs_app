@@ -8,11 +8,16 @@ Create React apps with no build configuration.
 Create React App works on macOS, Windows, and Linux.<br>
 If something doesn’t work, please [file an issue](https://github.com/facebook/create-react-app/issues/new).
 
+## Instalation
+
+```sh
+npm install --save react-notifications
+```
+
 ## Quick Overview
 
 ```sh
 cd my-app
-npm install
 npm start
 ```
 
@@ -33,7 +38,6 @@ my-app
 └── src
     ├── App.css
     ├── App.js
-    ├── App.test.js
     ├── index.css
     ├── index.js
     ├── logo.svg
