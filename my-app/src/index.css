@@ -7,3 +7,64 @@ body {
 #myapp {
   margin: 5px 25px;
 }
+
+input {
+	float: left;
+	display: block;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	height: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	margin-right: 5px;
+}
+
+.btn {
+    vertical-align: baseline !important;
+    margin-bottom: -1px !important;
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	border: 1px solid transparent;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	padding: .300rem .75rem;
+	font-size: .80rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	cursor: pointer;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+ol li {
+	clear: both;
+	margin-top: 5px;
+	margin-left: -20px;
+}
+
+ol li div {
+	float: left;
+	padding: 5px;
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	width: 80%;
+	margin-right: 5px;
+}

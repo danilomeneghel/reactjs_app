@@ -37,6 +37,7 @@ class TodoApp extends React.Component {
 	    <NotificationContainer/>
         <form onSubmit={this.handleSubmit}>
 		  <br />
+		  <h1>Items</h1>
           <label htmlFor="new-todo">
             Digite o item a ser adicionado
           </label>
@@ -45,9 +46,9 @@ class TodoApp extends React.Component {
             id="new-todo"
             onChange={this.handleChange}
             value={this.state.text}
-          />
+          /> 
           <button className='btn btn-success'>
-		    Adicionar
+		    <i className="fa fa-plus"></i> Adicionar
 		  </button>
         </form>
 		
@@ -95,7 +96,7 @@ class TodoList extends React.Component {
 	return (
 		<ol>
 			{this.props.items.map(item => (
-				<li key={item.id}>{item.text} <button onClick={this.handleDelete.bind(this, item)}>Excluir</button></li>
+				<li key={item.id}><div>{item.text}</div> <button className="btn btn-danger" title="Excluir" onClick={this.handleDelete.bind(this, item)}><i className="fa fa-trash"></i></button></li>
 			))}
 		</ol>
 	);
