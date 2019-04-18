@@ -1,4 +1,4 @@
-# ReactJS Basic App
+# APP ReactJS
 
 Create React apps with no build configuration.
 
@@ -11,13 +11,13 @@ If something doesn’t work, please [file an issue](https://github.com/facebook/
 ## Instalation
 
 ```sh
-npm install --save react-notifications
+cd my-app
+npm install --save react-notifications && font-awesome
 ```
 
 ## Quick Overview
 
 ```sh
-cd my-app
 npm start
 ```
 
