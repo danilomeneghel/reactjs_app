@@ -5,8 +5,8 @@ import TodoApp from './TodoApp';
 import registerServiceWorker from './registerServiceWorker';
 
 import './index.css';
-import 'font-awesome/css/font-awesome.min.css';
-import 'react-notifications/lib/notifications.css';
+import '../node_modules/font-awesome/css/font-awesome.min.css';
+import '../node_modules/react-notifications/lib/notifications.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 ReactDOM.render(<TodoApp />, document.getElementById('myapp'));
