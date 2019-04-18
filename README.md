@@ -33,6 +33,10 @@ Após concluído, abra o seu navegador o seguinte endereço: <br>
 
 [http://localhost:3000/](http://localhost:3000/) 
 
+## Demonstração
+
+[https://reactjs-cadastro-items.herokuapp.com/](https://reactjs-cadastro-items.herokuapp.com/)
+
 ## Licença
 
 APP ReactJS está sob licença <a href="LICENSE">The MIT License (MIT)</a>.
