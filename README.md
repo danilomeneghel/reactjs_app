@@ -19,8 +19,7 @@ Simples aplicativo de cadastro desenvolvido em ReactJS, sem o uso de banco de da
 
 ```sh
 $ git clone https://github.com/danilomeneghel/reactjs_app.git
-$ cd my-app
-$ npm install --save react-notifications && font-awesome
+$ npm install
 ```
 
 Ao concluir a configuração, basta digitar no terminal:
